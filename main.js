@@ -1,4 +1,4 @@
-//Ejercicio 1
+//------------------------------------------------ Ejercicio 1 ------------------------------------------------
 function deepEqual(data1, data2) {
 
     //Condicional para descartar datos diferentes
@@ -78,7 +78,9 @@ console.log('Testnull1:', deepEqual(null, null));
 
 
 
-//Ejercicio 2
+
+
+//------------------------------------------------ Ejercicio 2 ------------------------------------------------
 function chunk(array, size) {
     var newArr = [];
 
@@ -91,7 +93,11 @@ function chunk(array, size) {
 var data = [1, 2, 3, 4, 5, 6, 7, 8]
 console.log(chunk(data, 3));
 
-//Ejercicio 3
+
+
+
+
+//------------------------------------------------ Ejercicio 3 ------------------------------------------------
 function frequency(string) {
 
     let charArray = [];
