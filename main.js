@@ -54,7 +54,7 @@ let john = {
     lastName: 'Doe'
 };
 
-
+console.log("Ejercicio 1");
 console.log('Test 1:', deepEqual(1, 1));
 
 console.log('Test 2:', deepEqual(1, '1'));
@@ -91,6 +91,8 @@ function chunk(array, size) {
     return newArr;
 }
 var data = [1, 2, 3, 4, 5, 6, 7, 8]
+
+console.log("Ejercicio 2");
 console.log(chunk(data, 3));
 
 
@@ -122,7 +124,7 @@ function frequency(string) {
     return stringObj;
 
 }
-
+console.log("Ejercicio 3");
 console.log('Test 1:', frequency('cccbbbaaa'))
 
 console.log('Test 2:', frequency('www.bedu.org'))
