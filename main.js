@@ -93,7 +93,9 @@ function chunk(array, size) {
 var data = [1, 2, 3, 4, 5, 6, 7, 8]
 
 console.log("Ejercicio 2");
-console.log(chunk(data, 3));
+console.log('Test 1:', chunk(data, 1));
+console.log('Test 2:', chunk(data, 2));
+console.log('Test 3:', chunk(data, 3));
 
 
 
